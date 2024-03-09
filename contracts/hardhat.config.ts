@@ -87,7 +87,9 @@ export default {
       'arbitrum-sepolia':
         process.env.ARBISCAN_API_KEY || 'YOUR_ARBISCAN_API_KEY',
       'optimism-sepolia':
-        process.env.OPTIMISMSCAN_API_KEY || 'YOUR_ARBISCAN_API_KEY',
+        process.env.OPTIMISMSCAN_API_KEY || 'YOUR_OPTIMISM_API_KEY',
+      optimisticEthereum:
+        process.env.OPTIMISMSCAN_API_KEY || 'YOUR_OPTIMISM_API_KEY',
     },
     customChains: [
       {

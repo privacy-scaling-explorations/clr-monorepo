@@ -1,4 +1,5 @@
 node_modules
+params
 vue-app/.env
 vue-app/.env.dev
 vue-app/.env.xdai
@@ -10,5 +11,6 @@ vetur.config.js
 # Local Netlify folder
 .netlify
 .DS_Store
+
 
 contracts/MyLogFile.log
